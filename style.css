@@ -1,0 +1,650 @@
+:root {
+
+    --primarycolor: #F6F6F6;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+}
+
+
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Didact Gothic', sans-serif;
+    list-style: none;
+    overflow-x: hidden;
+
+}
+
+
+
+header {
+
+    width: 100%;
+    height: 100vh;
+    background-image: url("./imgs/model/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    padding: 300px 450px;
+}
+
+header img {
+
+    width: 30px;
+    height: 30px;
+
+
+}
+
+header img {
+
+    color: #f00;
+    filter: invert(100%);
+    cursor: pointer;
+
+
+
+}
+
+header h2 {
+
+    font-size: 6rem;
+    color: white;
+    letter-spacing: 0.12em;
+
+}
+
+header h1 {
+
+    font-size: 2.2rem;
+    color: white;
+    letter-spacing: 0.12em;
+    font-weight: 200;
+}
+
+header p {
+
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 0.12em;
+    font-weight: 200;
+}
+
+header ul li {
+
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+
+
+
+
+}
+
+header ul li .iconfb {
+
+    cursor: pointer;
+
+}
+
+
+
+/* navbar */
+
+.main {
+
+    width: 100%;
+    height: 60px;
+    background-color: var(--primarycolor);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.main .pages {
+
+
+    margin-right: 60px;
+
+
+}
+
+.main .pages a {
+
+
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.15em;
+
+
+
+}
+
+.main #active {
+
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+.main #active a {
+
+    color: white;
+
+}
+
+/* section */
+
+section {
+
+    width: 100%;
+    height: 100vh;
+    padding: 120px 16%;
+
+
+}
+
+section img {
+
+    width: 400px;
+    height: 450px;
+
+}
+
+
+/* about section */
+
+section .Intro-container {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+section .info-tag {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 111px;
+
+}
+
+section .info-tag h2 {
+
+
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+
+}
+
+.Intro-div {
+
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+
+}
+
+.Intro-div img {
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
+
+
+    object-fit: cover;
+
+}
+
+
+.Intro-div .Intro-Txt .nametag {
+
+
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    line-height: 40px;
+
+}
+
+.Intro-div .Intro-Txt span {
+
+    font-weight: 600;
+
+}
+
+.Intro-div .Intro-Txt h1 {
+
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 10px 0px;
+
+}
+
+
+
+.Intro-div .Intro-Txt p {
+
+    font-size: 1em;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+
+
+.Intro-div .Intro-Txt .btns {
+
+    margin-top: 40px;
+
+}
+
+.Intro-div .Intro-Txt .btns .btn {
+
+    margin-right: 30px;
+    border: none;
+    background-color: black;
+    border-radius: 30px;
+    width: 160px;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    
+}
+
+
+
+.Intro-div .Intro-Txt .btns .btn a {
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+.Intro-div .Intro-Txt .btns .Beta {
+
+
+
+    background-color: #e74c3c;
+
+
+}
+
+/* Expereince section */
+
+.Exp-sec {
+
+    width: 100%;
+    height: 750px;
+    padding: 120px 16%;
+    background-color: var(--primarycolor);
+
+}
+
+.Exp-container {
+
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primarycolor);
+    width: 100%;
+
+
+}
+
+.Exp-container .intro-div {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 111px;
+
+
+}
+
+.Exp-sec .Exp-container .intro-div h2 {
+
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+
+
+}
+
+
+
+
+
+.Exp-sec .box-container {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 5em;
+
+}
+
+
+
+
+
+
+.Exp-sec .box-container .box .intro-img {
+
+    display: flex;
+    margin-bottom: 5px;
+    gap: 1em;
+
+
+}
+
+.Exp-sec .box-container .box .intro-img img {
+
+    width: 40px;
+    height: 40px;
+
+}
+
+
+
+
+.Exp-sec .box-container .box h1 {
+
+    font-size: 1em;
+    margin: 10px 0px;
+
+
+}
+
+
+
+.Animated-sec {
+
+
+
+
+    width: 100%;
+    height: 650px;
+    padding: 120px 16%;
+
+
+}
+
+.Animated-sec .container-icons {
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 400px;
+
+}
+
+.Animated-sec .container-icons img {
+
+
+    width: 40px;
+    height: 40px;
+
+
+}
+
+.Animated-sec .container-icons .container {
+
+
+    width: 110px;
+    height: 110px;
+    border: 0.5px solid black;
+    border-radius: 50%;
+
+    margin-left: 140px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.container-icons .animated-icons {
+
+    width: 400px;
+    height: 220px;
+    margin-top: 100px;
+    text-align: center;
+    transition: 0.4s ease-out;
+
+
+
+}
+
+.Animated-sec .container-icons .animated-icons p {
+
+    margin-top: 10px;
+    font-size: 3em;
+    font-weight: 10;
+    letter-spacing: 0.1em;
+
+}
+
+.Animated-sec .container-icons h5 {
+
+
+    font-weight: 10;
+    letter-spacing: 0.1em;
+
+}
+
+.Animated-sec .animated-icons:hover {
+
+    transform: scale(1.1);
+
+
+}
+
+
+
+
+.testi-sec {
+
+
+    width: 100%;
+    height: 600px;
+    padding: 100px 16%;
+    background-color: var(--primarycolor);
+
+}
+
+.testi-sec .sec-intro h2 {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    letter-spacing: 0.2em;
+
+}
+
+.slideshow-container {
+    position: relative;
+    background: var(--primarycolor);
+}
+
+
+.mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+
+/* 
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+} */
+
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: var(--primarycolor);
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+
+q {
+    font-style: italic;
+}
+
+
+.author {
+    color: cornflowerblue;
+}
+
+
+/* contact me section  */
+
+.Contact-section {
+
+    width: 100%;
+    height: 1150px;
+    padding: 120px 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.Contact-section .Contact-form-info{
+
+   margin-bottom: 30px;
+
+
+}
+
+.Contact-section .Contact-form-info h2{
+
+font-size: 2.5em;
+letter-spacing: 0.2em;
+
+}
+
+.Contact-section .Contact-form {
+
+
+    width: 1000px;
+    height: 600px;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column  ;
+   
+  
+
+
+}
+
+
+.Contact-section .Contact-form input{
+
+    
+    padding: 20px 20px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+
+
+}
+
+
+.Contact-section .Contact-form textarea{
+
+    
+    padding: 20px 20px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    border: 1px solid black;
+    
+
+
+}
+
+.Contact-section  .btn-holder {
+
+
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Contact-section  .btn-holder button{
+
+
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 1em;
+border: 1px solid black;
+cursor: pointer;
+
+}
